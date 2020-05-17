@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+define('PAGINATION_COUNT',10);
 
 /*
 |--------------------------------------------------------------------------
@@ -24,13 +25,17 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::post('comment', 'HomeController@saveComment')->name('comment.save');
 
-Route::get('test', function () {
-    $data = [
-        'user_id' => 44,
-        'comment' => 'dfdfdf',
-        'post_id' => 33,
-    ];
 
-    event(new App\Events\NewNotification($data));
-    return "Event has been sent!";
+################Begin paymentGateways Routes ########################
+
+Route::group(['prefix' => 'offers', 'middleware' => 'auth','namespace' =>'Offers'], function () {
+    Route::get('/', 'OfferController@index')->name('offers.all');
+    Route::get('details/{offer_id}', 'OfferController@show')->name('offers.show');
 });
+
+################End paymentGateways Routes ########################
+
+
+
+
+
