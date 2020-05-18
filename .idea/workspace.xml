@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba431553-7107-447b-b63d-eebeabcde90f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Offers/OfferController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Offer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Order.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/front/offers/details.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/front/offers/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ajax/form.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Offers/OfferController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Offers/OfferController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PaymentProviderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PaymentProviderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/offers/details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/offers/details.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/offers/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/offers/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -131,18 +131,19 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/front/offers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/ajax" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\realtime\resources\views\front\offers" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\realtime\resources\views\ajax" />
       <recent name="C:\wamp64\www\realtime\resources\views\front\offers" />
       <recent name="C:\wamp64\www\realtime\resources\views" />
       <recent name="C:\wamp64\www\realtime\app\Models" />
       <recent name="C:\wamp64\www\realtime\public\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\realtime\resources\views\front\offers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -181,6 +182,8 @@
       <workItem from="1589564843399" duration="2824000" />
       <workItem from="1589572053388" duration="8737000" />
       <workItem from="1589728547771" duration="4276000" />
+      <workItem from="1589788687238" duration="104000" />
+      <workItem from="1589824811835" duration="6299000" />
     </task>
     <servers />
   </component>
@@ -205,7 +208,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/resources/views/front/offers/index.blade.php</url>
-          <line>32</line>
+          <line>33</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

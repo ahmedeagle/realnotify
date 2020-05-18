@@ -33,6 +33,8 @@ Route::group(['prefix' => 'offers', 'middleware' => 'auth','namespace' =>'Offers
     Route::get('details/{offer_id}', 'OfferController@show')->name('offers.show');
 });
 
+Route::get('get-checkout-id', 'PaymentProviderController@getCheckOutId')->name('offers.checkout');
+
 ################End paymentGateways Routes ########################
 
 
